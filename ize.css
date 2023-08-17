@@ -1,0 +1,154 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+#a{
+    background-color:rgb(82, 74, 74);
+    text-align:center;
+    height:20px;
+    width: 230ex;
+    color:whitesmoke;
+    padding:10px;
+}
+.img{
+    height: 900px;
+    width: 1700px;
+}
+.b{
+    font-size:30px;
+    text-align: center;
+}
+.c{
+    font-size:22px;
+}
+.img2{
+    height:600px;
+    width:500px;
+    border:20px solid aliceblue;
+}
+.container{
+    position:relative;
+    text-align: center;
+}
+.text{
+    position:absolute;
+    top:40%;
+    left:5%;
+    font-size:70px;
+    font-style: oblique;
+    color: rgb(124, 114, 114);
+}
+.text2{
+    position:absolute;
+    font-size:90px;
+    font-style: oblique;
+    color: rgb(124, 114, 114);
+    background-image: url("sky.webp");
+    height: 900px;
+    width: 1700px;
+    text-align:center;
+} 
+
+button{
+    position:absolute;
+    border-radius:100px;
+    background-color: antiquewhite;
+    border-style: none;
+    font-size: 1.25rem;
+    padding:10px;
+    top:55%;
+    left:10%;
+    font-size:20px;
+    color: rgb(124, 114, 114);
+    transition:transform 0.35 ease;
+}
+button:hover{
+    transform: scale(1.3);
+    z-index:1;
+}
+#div{
+    background-color:rgb(158, 138, 138);
+    text-align:right;
+    height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img3{
+    height:600px;
+    width:500px;
+    border:70px solid aliceblue;
+}
+button{
+    background-color: aliceblue;
+}
+.font{
+    font-size:130%;
+}
+link:visited{
+    color: blueviolet;
+}
+.font1{
+    color:grey;
+    font-size:30px;
+}
+h1{
+    color:grey;
+    background-color: aliceblue;
+    
+}
+b{
+    color:grey;
+    background-color: aliceblue;
+}
+table{
+    background-color: aliceblue;
+}
+body{
+    background-color: aliceblue;
+}
+.tc-container{
+    width:500px;
+    height:600px;
+    border:20px solid aliceblue;
+    margin-top:40px;
+    position: relative;
+}
+.top-img{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    transition: all 0.7s ease;
+}
+.tc-container img{
+    width:100%;
+    height: 100%;
+}
+.top-img:hover{
+    opacity: 1;
+}
+#girl{
+    height:700px;
+    width:500px;
+}
+.p{
+    width:500;
+}
+a{
+    color:grey;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(154, 95, 95);
+}
+body{
+    font-family: 'Cinzel', serif;
+}
+/* @media(max-width:480px){
+    .parent img{
+        height:auto;
+    }
+} */
